@@ -1,0 +1,22 @@
+// Coloque su configuración en este archivo para sobrescribir la configuración predeterminada y de usuario.
+{
+    "deploy": {
+        "packages" : [
+            {
+                "name" : "front-ciper",
+                "deployOnSave" : false
+            }
+        ],
+        "targets" : [
+            {
+                "type"     : "sftp",
+                "name"     : "front-ciper",
+                "dir"      : "/var/www/des/front/ciper/",
+                "host"     : "54.148.0.90",
+                "post"     : 22,
+                "user"     : "ubuntu",
+                "password" : "Hb5om2ifqu"
+            }
+        ]
+    }
+  }

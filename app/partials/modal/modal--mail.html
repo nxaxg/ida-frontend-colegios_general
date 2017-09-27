@@ -1,0 +1,24 @@
+<section class="modal-box" data-role="modal-content">
+	<h5 class="modal-box__title">Compartir página por e-mail</h5>
+	<form action="" method="" class="" data-module="common-form" data-validzr-handled="true" novalidate>
+        <div class="form-control" data-error-message="Ingrese sólo valores alfabéticos">
+            <label for="enviar-correo-nombre" class="form-control__label">Tu nombre*:</label>
+            <input type="text" class="form-control__field" name="enviar-correo-nombre" placeholder="Ingresa tu nombre" data-custom-validation="onlyString"  required>
+            <span class="form-control__text">Debe contener solo valores alfabéticos. Ejemplo: Francisco</span>
+        </div>
+        <div class="form-control" data-error-message="Ingresa sólo correos válidos">
+            <label for="enviar-correo-para" class="form-control__label">Para*:</label>
+            <input type="email" class="form-control__field" name="enviar-correo-para" placeholder="nombre1@email.com, nombre2@email.com" required>
+            <span class="form-control__text">Ingresa sólo correos válidos. Ejemplo: nombre@email.com</span>
+        </div>
+        <div class="form-control" data-error-message="Este es un campo requerido">
+            <label for="enviar-correo-nombre" class="form-control__label">Agregar nota*:</label>
+            <textarea name="enviar-correo-nota" rows="5" class="form-control__field" placeholder="Escribe aquí un mensaje personal" required></textarea>
+            <span class="form-control__text">Debe contener solo valores alfabéticos</span>
+        </div>
+        <div class="form-control font-centered">
+            <button type="submit" class="button button--full-width">Enviar</button>
+        </div>
+    </form>
+</section>
+<script src="/../../scripts/src/forms.js"></script>

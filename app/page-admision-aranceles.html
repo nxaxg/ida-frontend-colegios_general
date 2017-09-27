@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Colegio general</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+</head>
+
+<body>
+	<header class="header-bar">
+        <div class="top-bar">
+			<div class="container" data-area-name="menu-top">
+				<ul class="top-bar__items top-bar__items--right" data-mq-change="midlarge" data-match-area="menu-top@midlarge" data-unmatch-area="menu-top">
+                    <li class="menu-item">
+                        <a href="page-contacto.html">Contacto</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="404.html">404 not found</a>
+                    </li>
+                    <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                        <a href="#">Search</a>
+                        <ul class="submenu">
+                            <li class="menu-item"><a href="search.html" title="title">Search success</a></li>
+                            <li class="menu-item"><a href="search-not-found.html" title="title">Search error</a></li>
+                        </ul>
+                        <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                    </li>
+				</ul>
+			</div>
+		</div>
+        <nav class="nav-bar" data-module="nav-bar">
+            <div class="container">
+                <div class="nav-bar__holder">
+                    <div class="nav-bar__brand">
+                        <a class="app-brand app-brand--inline" title="title" href="index.html">
+                            <img src="images/logos/general-pumahue-color.svg" class="app-brand__logo hideme--at-midlarge" alt="Title"/>
+                            <img src="images/logos/general-pumahue-blanco.svg" class="app-brand__logo hideme showme--at-midlarge" alt="Title"/>
+                        </a>
+                    </div>
+                    <div class="nav-bar__body" data-role="nav-body">
+                        <button class="nav-bar__deploy-button" aria-label="Ver menú" data-role="nav-deployer">
+							<span></span>
+                        </button>
+                        <div class="search-form">
+                            <button id="search-mobile" class="search-box__deployer search-box__deployer--mobile" data-action="search-deployer">
+                            </button>
+                        </div>
+                        <div class="nav-bar__menu-holder">
+                            <ul class="nav-bar__menu nav-bar__menu--primary">
+                                <li class="menu-item hideme showme--at-tablet">
+                                    <a href="index.html" title="title">Inicio</a>
+                                </li>
+                                <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                                    <a href="page-admision.html">Page admisión</a>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="page-admision-aranceles.html" title="title">Page admision aranceles</a></li>
+                                        <li class="menu-item"><a href="page-admision-procedimientos.html" title="title">Page admisión procedimientos</a></li>
+                                    </ul>
+                                    <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page-portadilla.html">Page portadilla</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page-subportadilla.html" title="title">Page subportadilla</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page-quienes-somos.html" title="title">Page quienes somos</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="singular.html" title="title">Singular</a>
+                                </li>
+                                <li class="menu-item menu-item--search hideme--at-tablet">
+                                    <button class="search-box__deployer" data-action="search-deployer"></button>
+                                </li>
+                            </ul>
+                            <ul class="nav-bar__menu nav-bar__menu--primary hideme showme--at-tablet">
+                                <li class="menu-item">
+                                    <a href="404.html">404 not found</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page-contacto.html">Contacto</a>
+                                </li>
+                                <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                                    <a href="#">Search</a>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="search.html" title="title">Search success</a></li>
+                                        <li class="menu-item"><a href="search-not-found.html" title="title">Search error</a></li>
+                                    </ul>
+                                    <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<div class="container">
+					<div class="search-box" data-module="search-deploy">
+						<form class="search-box__form" action="" method="">
+							<input type="text" class="search-box__input" placeholder="Buscar">
+							<button type="submit" class="search-box__btn"></button>
+						</form>
+					</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+	<main>
+		<section class="container hideme--at-tablet">
+			<ul class="breadcrumbs">
+				<li class="breadcrumbs__item">
+					<a href="#" title="title">Inicio</a>
+				</li>
+				<li class="breadcrumbs__item breadcrumbs__item--current">
+					<a href="#" title="title">Admisión</a>
+				</li>
+			</ul>
+		</section>
+
+		<section class="gridle-gr-12 hideme showme--at-tablet">
+            <div class="sidebar-mobile">
+                <button data-action="sidebar-deployer" class="sidebar-deployer">Otras secciones</button>
+                <ul data-module="sidebar-body" class="sidebar-mobile__body">
+                    <li class="sidebar-mobile__item">
+                        <a href="#">Item sidebar</a>
+                    </li>
+                    <li class="sidebar-mobile__item">
+                        <a href="#">Item sidebar</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+		<section class="horizon container">
+			<div class="gridle-row">
+				<aside class="gridle-gr-3 hideme--at-tablet sidebar-siblings">
+					  <h3 class="siblings__title siblings__title">
+						  <a href="#">Admisión</a>
+					  </h3>
+					  <ul class="siblings__list">
+							<li class="siblings__item">
+								<a href="#">Procedimientos</a>
+							</li>
+							<li class="siblings__item">
+								<a href="#">Requisitos</a>
+							</li>
+							<li class="siblings__item siblings__item--current">
+								<a href="#">Aranceles</a>
+							</li>
+							<li class="siblings__item">
+								<a href="#">Becas</a>
+							</li>
+					  </ul>
+					  <h3 class="siblings__title">
+						  <a href="#">¿Necesitas ayuda?</a>
+					  </h3>
+					  <ul class="siblings__list">
+							<li class="siblings__item">
+								<a href="#">Procedimientos</a>
+							</li>
+							<li class="siblings__item">
+								<a href="#">Requisitos</a>
+							</li>
+					  </ul>
+				</aside>
+				<div class="gridle-gr-9 gridle-gr-12@tablet">
+					<h2 class="common-box__title common-box__title--double">Aranceles</h2>
+					<div class="content-box">
+						<p>Revisa el arancel del colegio al que querés postular.</p>
+						<form action="" method="" id="admision-aranceles" class="gridle-row" data-module="common-form" data-validzr-handled="true" novalidate>
+							<div class="gridle-gr-4 gridle-gr-12@tablet">
+								<div class="form-control">
+									<select name="admision-coegios-aranceles" class="form-control__field form-control__field--select">
+										<option value="" selected disabled>Selecciona tu colegio</option>
+										<option value="colegio-uno">Nombre del colegio</option>
+										<option value="colegio-uno">Nombre del colegio</option>
+										<option value="colegio-uno">Nombre del colegio</option>
+										<option value="colegio-uno">Nombre del colegio</option>
+									</select>
+								</div>
+							</div>
+							<div class="gridle-gr-8 gridle-gr-12@tablet">
+								<button type="submit" class="button button--wide">Ver arancel</button>
+							</div>
+						</form>
+						<div class="content-box__results">
+							
+						</div>
+					</div>
+					<!--postula-box-->
+					<h3 class="horizon__title">Postula ahora</h3>
+					<div class="steps-box__buttons">
+						<button class="step-box__button tablet-up active" data-func="showTab" data-target="admision-colegio">1. <span class="hideme--at-large">Datos de</span> Colegio</button>
+						<button class="step-box__button tablet-up" data-func="showTab" data-target="admision-alumno">2. <span class="hideme--at-large">Datos de</span> Alumno</button>
+						<button class="step-box__button tablet-up" data-func="showTab" data-target="admision-apoderado">3. <span class="hideme--at-large">Datos de</span> Apoderado</button>
+					</div>
+					<div class="step-box__targets">
+						<div class="step-box__target active" data-tabname="admision-colegio">
+							<form action="" method="" id="admision-colegio" class="gridle-row" data-module="common-form" data-validzr-handled="true" novalidate>
+								  <div class="gridle-gr-4 gridle-gr-12@tablet">
+									  <label class="form-switch form-switch--block">
+										  <input type="radio" name="admision-colegio" value="">
+										  <span class="form-switch__input form-switch__input--radio"></span>
+										  <span class="form-switch__label">Pumahue Peñalolén</span>
+									  </label>
+								  </div>
+								  <div class="gridle-gr-4 gridle-gr-12@tablet">
+									  <label class="form-switch form-switch--block">
+										  <input type="radio" name="admision-colegio" value="">
+										  <span class="form-switch__input form-switch__input--radio"></span>
+										  <span class="form-switch__label">Pumahue Peñalolén</span>
+									  </label>
+								  </div>
+								  <div class="gridle-gr-4 gridle-gr-12@tablet">
+									  <label class="form-switch form-switch--block">
+										  <input type="radio" name="admision-colegio" value="">
+										  <span class="form-switch__input form-switch__input--radio"></span>
+										  <span class="form-switch__label">Pumahue Peñalolén</span>
+									  </label>
+								  </div>
+								  <div class="gridle-gr-4 gridle-gr-12@tablet">
+									  <label class="form-switch form-switch--block">
+										  <input type="radio" name="admision-colegio" value="">
+										  <span class="form-switch__input form-switch__input--radio"></span>
+										  <span class="form-switch__label">Pumahue Peñalolén</span>
+									  </label>
+								  </div>
+								  <div class="gridle-gr-4 gridle-gr-12@tablet">
+									  <label class="form-switch form-switch--block">
+										  <input type="radio" name="admision-colegio" value="">
+										  <span class="form-switch__input form-switch__input--radio"></span>
+										  <span class="form-switch__label">Pumahue Peñalolén</span>
+									  </label>
+								  </div>
+								  <div class="gridle-gr-4 gridle-gr-12@tablet">
+									  <label class="form-switch form-switch--block">
+										  <input type="radio" name="admision-colegio" value="">
+										  <span class="form-switch__input form-switch__input--radio"></span>
+										  <span class="form-switch__label">Pumahue Peñalolén</span>
+									  </label>
+								  </div>
+								  <div class="gridle-gr-4 gridle-gr-12@tablet">
+									  <label class="form-switch form-switch--block">
+										  <input type="radio" name="admision-colegio" value="">
+										  <span class="form-switch__input form-switch__input--radio"></span>
+										  <span class="form-switch__label">Pumahue Peñalolén</span>
+									  </label>
+								  </div>
+								  <div class="gridle-gr-12">
+									  <button type="submit" class="button button--more" data-func="showTab" data-target="admision-alumno">Siguiente</button>
+								  </div>
+							</form>
+						</div>
+
+						<div class="step-box__target" data-tabname="admision-alumno">
+							<p class="step-box__text">Postulando a colegio <strong>Pumahue Peñalolen</strong> <a href="#">(cambiar)</a></p>
+
+							<form action="" method="" id="admision-alumno" class="gridle-row" data-module="common-form" data-validzr-handled="true" novalidate>
+								<div class="gridle-gr-6 gridle-gr-12@tablet">
+									<div class="form-control" data-error-message="Carácteres alfabéticos">
+										<label for="admision-alumno-nombre" class="form-control__label">Nombres del alumno *</label>
+										<input type="text" class="form-control__field" name="admision-alumno-nombre" placeholder="Ingrese el o los nombres del alumno" data-custom-validation="onlyString" required>
+										<p class="form-control__text">Carácteres alfabéticos</p>
+									</div>
+								</div>
+								<div class="gridle-gr-6 gridle-gr-12@tablet">
+									<div class="form-control" data-error-message="Carácteres alfabéticos">
+										<label for="admision-alumno-apellido-p" class="form-control__label">Primer apellido *</label>
+										<input type="text" class="form-control__field" name="admision-alumno-apellido-p" placeholder="Ingrese el apellido del alumno" data-custom-validation="onlyString" required>
+										<p class="form-control__text">Carácteres alfabéticos</p>
+									</div>
+								</div>
+								<div class="gridle-gr-6 gridle-gr-12@tablet">
+									  <div class="form-control" data-error-message="Carácteres alfabéticos">
+										  <label for="admision-alumno-apellido-m" class="form-control__label">Segundo apellido *</label>
+										  <input type="text" class="form-control__field" name="admision-alumno-apellido-m" placeholder="Ingrese el apellido del alumno" data-custom-validation="onlyString" required>
+										  <p class="form-control__text">Carácteres alfabéticos</p>
+									  </div>
+								  </div>
+								  <div class="gridle-gr-6 gridle-gr-12@tablet">
+									  <div class="form-control" data-error-message="Carácteres numéricos">
+										  <label for="admision-alumno-nacimiento" class="form-control__label">Fecha de nacimiento *</label>
+										  <input type="text" class="form-control__field" name="admision-alumno-nacimiento" data-minlength="2" data-maxlength="10" placeholder="01/01/2000" required>
+										  <p class="form-control__text">Carácteres numéricos</p>
+									  </div>
+								  </div>
+								  <div class="gridle-gr-6 gridle-gr-12@tablet">
+									  <div class="form-control" data-error-message="Seleccione una de las opciones">
+										  <label for="admision-alumno-curso" class="form-control__label">Curso *</label>
+										  <select class="form-control__field form-control__field--select" name="admision-alumno-curso" required>
+											  <option value="" selected disabled>Selecciona un curso</option>
+											  <option value="primero-basico">1º Básico</option>
+											  <option value="segundo-basico">2º Básico</option>
+										  </select>
+										  <p class="form-control__text">Seleccione una de las opciones</p>
+									  </div>
+								  </div>
+								  <div class="gridle-gr-6 gridle-gr-12@tablet">
+									  <div class="form-control" data-error-message="Seleccione una de las opciones">
+										  <label for="admision-alumno-curriculum" class="form-control__label">Tipo de Curriculum *</label>
+										  <label class="form-switch form-switch--block">
+											  <input type="radio" name="admision-alumno-curriculum" value="">
+											  <span class="form-switch__input form-switch__input--radio"></span>
+											  <span class="form-switch__label">Tradicional</span>
+										  </label>
+										  <label class="form-switch form-switch--block">
+											  <input type="radio" name="admision-alumno-curriculum" value="">
+											  <span class="form-switch__input form-switch__input--radio"></span>
+											  <span class="form-switch__label">Bilingüe</span>
+										  </label>
+										  <p class="form-control__text">Para más información click <a href="#">aquí</a></p>
+									  </div>
+								  </div>
+								  <div class="gridle-gr-12">
+									  <button type="submit" class="button button--more" data-func="showTab" data-target="admision-apoderado">Siguiente</button>
+								  </div>
+							</form>
+							<p class="form-control__text">* Campos obligatorios</p>
+						</div>
+
+						<div class="step-box__target" data-tabname="admision-apoderado">
+							  <p class="step-box__text">Postulando a colegio <strong>Pumahue Peñalolen</strong> <a href="#">(cambiar)</a></p>
+
+							  <form action="" method="" id="admision-apoderado" class="gridle-row" data-module="common-form" data-validzr-handled="true" novalidate>
+								  <div class="gridle-gr-12">
+									  <div class="form-control" data-error-message="Carácteres alfabéticos">
+										  <label for="admision-apoderado-nombre" class="form-control__label">Nombre completo del apoderado o apoderada *</label>
+										  <input type="text" class="form-control__field" name="admision-apoderado-nombre" placeholder="Ingrese nombre completo del apoderado/a" data-custom-validation="onlyString" required>
+										  <p class="form-control__text">Carácteres alfabéticos</p>
+									  </div>
+								  </div>
+								  <div class="gridle-gr-6 gridle-gr-12@tablet">
+									   <div class="form-control" data-error-message="Ingrese e-mail válido">
+										   <label for="admision-apoderado-email" class="form-control__label">E-mail *</label>
+										   <input type="email" class="form-control__field" name="admision-apoderado-email" placeholder="Ingrese el e-mail del apoderado" required>
+										   <p class="form-control__text">Ingrese e-mail válido</p>
+									   </div>
+								   </div>
+								   <div class="gridle-gr-6 gridle-gr-12@tablet">
+									   <div class="form-control" data-error-message="Carácteres numéricos">
+										   <label for="admision-apoderado-telefono" class="form-control__label">Teléfono *</label>
+										   <input type="text" class="form-control__field" name="admision-apoderado-telefono" data-minlength="2" data-maxlength="10" placeholder="Ej: 9 12345678" data-custom-validation="onlyNumbers" required>
+										   <p class="form-control__text">Carácteres numéricos</p>
+									   </div>
+								   </div>
+								   <div class="gridle-gr-12">
+									   <button type="submit" class="button button--more">Finalizar</button>
+								   </div>
+							  </form>
+							  <p class="form-control__text">* Campos obligatorios</p>
+						  	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	<footer class="footer-bar" >
+		<div class="container gridle-no-gutter">
+			<div class="gridle-row">
+				<div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+					<h4 class="footer-bar__title"><a href="#">Title 1</a></h4>
+					<a href="#" title="title" class="footer-bar__link">Item 1</a>
+					<a href="#" title="title" class="footer-bar__link">Item 1</a>
+					<a href="#" title="title" class="footer-bar__link">Item 1</a>
+				</div>
+				<div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+					<h4 class="footer-bar__title"><a href="#">Title 2</a></h4>
+					<a href="#" title="title" class="footer-bar__link">Item 2</a>
+					<a href="#" title="title" class="footer-bar__link">Item 2</a>
+					<a href="#" title="title" class="footer-bar__link">Item 2</a>
+				</div>
+				<div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+					<h4 class="footer-bar__title"><a href="#">Title 3</a></h4>
+					<a href="#" title="title" class="footer-bar__link">Item 3</a>
+					<a href="#" title="title" class="footer-bar__link">Item 3</a>
+					<a href="#" title="title" class="footer-bar__link">Item 3</a>
+				</div>
+				<div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+					<a class="app-brand" href="index.html" title="Home">
+						<img src="images/logos/general-pumahue-blanco.svg" class="app-brand__logo" alt="Logo"/>
+					</a>
+					<ul class="footer-bar__data">
+						<li class="footer-bar__data-item footer-bar__data-item--mail">
+							<a href="#" title="title" target="_blank">mail@mail.com</a>
+						</li>
+						<li class="footer-bar__data-item footer-bar__data-item--phone">
+							<a href="#" title="title" target="_blank">+56 2 2478 9012</a>
+						</li>
+						<li class="footer-bar__data-item footer-bar__data-item--place">
+							<a href="#" title="title" target="_blank">Av. Providencia 218, Santiago, Chile</a>
+						</li>
+					</ul>
+					<p class="footer-bar__social">
+						<a href="#" title="title" target="_blank" class="social-link social-link--linkedin"></a>
+						<a href="#" title="title" target="_blank" class="social-link social-link--twitter"></a>
+						<a href="#" title="title" target="_blank" class="social-link social-link--facebook"></a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="scripts/min/main.min.js"></script>
+</body>
+</html>

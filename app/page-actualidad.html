@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Colegio específico</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">    
+</head>
+
+<body>
+    <header class="header-bar">
+        <div class="top-bar">
+			<div class="container" data-area-name="menu-top">
+				<ul class="top-bar__items top-bar__items--right" data-mq-change="midlarge" data-match-area="menu-top@midlarge" data-unmatch-area="menu-top">
+                    <li class="menu-item">
+                        <a href="page-contacto.html">Contacto</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="404.html">404 not found</a>
+                    </li>
+                    <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                        <a href="#">Search</a>
+                        <ul class="submenu">
+                            <li class="menu-item"><a href="search.html" title="title">Search success</a></li>
+                            <li class="menu-item"><a href="search-not-found.html" title="title">Search error</a></li>
+                        </ul>
+                        <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                    </li>
+				</ul>
+			</div>
+		</div>
+        <nav class="nav-bar" data-module="nav-bar">
+            <div class="container">
+                <div class="nav-bar__holder">
+                    <div class="nav-bar__brand">
+                        <a class="app-brand app-brand--inline" title="title" href="index.html">
+                            <img src="images/logos/manquecura-color.png" class="app-brand__logo hideme--at-midlarge" alt="Title"/>
+                            <img src="images/logos/manquecura-blanco.png" class="app-brand__logo hideme showme--at-midlarge" alt="Title"/>
+                        </a>
+                    </div>
+                    <div class="nav-bar__body" data-role="nav-body">
+                        <button class="nav-bar__deploy-button" aria-label="Ver menú" data-role="nav-deployer">
+							<span></span>
+                        </button>
+                        <div class="search-form">
+                            <button id="search-mobile" class="search-box__deployer search-box__deployer--mobile" data-action="search-deployer">
+                            </button>
+                        </div>
+                        <div class="nav-bar__menu-holder">
+                            <ul class="nav-bar__menu nav-bar__menu--primary">
+                                <li class="menu-item hideme showme--at-tablet">
+                                    <a href="index.html" title="title">Inicio</a>
+                                </li>
+                                <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                                    <a href="page-portadilla.html" title="title">Portadillas</a>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="page-portadilla-micolegio.html" title="title">Portadilla mi colegio</a></li>
+                                        <li class="menu-item"><a href="page-portadilla-talleres.html" title="title">Portadilla talleres</a></li>
+                                        <li class="menu-item"><a href="page-subportadilla.html" title="title">Subportadilla</a></li>
+                                    </ul>
+                                    <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                                </li>
+                                <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">    
+                                    <a href="#" title="title">Personas</a>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="page-equipo-directivo.html" title="title">Equipo directivo</a></li>
+                                        <li class="menu-item"><a href="page-equipo-docente.html" title="title">Equipo docente</a></li>
+                                        <li class="menu-item"><a href="page-equipo-asistentes.html" title="title">Equipo asistentes</a></li>
+                                    </ul>
+                                    <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                                </li>
+                                <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                                    <a href="#" title="title">Páginas tipo</a>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="singular.html" title="title">Singular/Page</a></li>
+                                        <li class="menu-item"><a href="single.html" title="title">Single</a></li>
+                                        <li class="menu-item"><a href="single-galeria.html" title="title">Single galería</a></li>
+                                    </ul>
+                                    <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                                </li>
+                                <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                                    <a href="page-actualidad.html" title="title">Actualidad</a>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="archive-noticias.html" title="title">Archivo noticias</a></li>
+                                        <li class="menu-item"><a href="archive-galerias.html" title="title">Archivo galerías</a></li>
+                                        <li class="menu-item"><a href="archive-calendario.html" title="title">Archivo calendario</a></li>
+                                        <li class="menu-item"><a href="archive-talleres.html" title="title">Archivo talleres</a></li>
+                                        <li class="menu-item"><a href="archive-academias.html" title="title">Archive academias</a></li>
+                                    </ul>
+                                    <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                                </li>
+                                <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                                    <a href="#" title="title">Páginas otras</a>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="page-admision-colegio.html" title="title">Admisión</a></li>
+                                        <li class="menu-item"><a href="page-portadilla-apoderados.html" title="title">Info apoderados</a></li>
+                                    </ul>
+                                    <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                                </li>
+                                <li class="menu-item menu-item--search hideme--at-tablet">
+                                    <button class="search-box__deployer" data-action="search-deployer"></button>
+                                </li>
+                            </ul>
+                            <ul class="nav-bar__menu nav-bar__menu--primary hideme showme--at-tablet">
+                                <li class="menu-item">
+                                    <a href="404.html">404 not found</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page-contacto.html">Contacto</a>
+                                </li>
+                                <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                                    <a href="#">Search</a>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="search.html" title="title">Search success</a></li>
+                                        <li class="menu-item"><a href="search-not-found.html" title="title">Search error</a></li>
+                                    </ul>
+                                    <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<div class="container">
+					<div class="search-box" data-module="search-deploy">
+						<form class="search-box__form" action="/s" method="">
+							<input type="text" class="search-box__input" placeholder="Buscar">
+							<button type="submit" class="search-box__btn"></button>
+						</form>
+					</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container subcontainer">
+            <ul class="breadcrumbs hideme--at-tablet">
+                <li class="breadcrumbs__item">
+                    <a href="#" title="title">Inicio</a>
+				</li>
+				<li class="breadcrumbs__item">
+                    <a href="#" title="title">Mi colegio</a>
+                </li>
+                <li class="breadcrumbs__item breadcrumbs__item--current">
+                    <a href="#" title="title">Equipo del colegio</a>
+                </li>
+			</ul>
+			<ul class="share-list share-list--row ">
+				<li class="share-list__item"><a href="#" class="icon-elem icon-elem--linkedin"></a></li>
+				<li class="share-list__item"><a href="#" class="icon-elem icon-elem--twitter"></a></li>
+				<li class="share-list__item"><a href="#" class="icon-elem icon-elem--facebook"></a></li>
+				<li class="share-list__item"><a href="#" class="icon-elem icon-elem--mail_outline"></a></li>
+				<li class="share-list__item  hideme--at-tablet"><a href="#" class="icon-elem icon-elem--print"></a></li>
+				<li class="share-list__item hideme showme--flex-mobile"><a href="#" class="icon-elem icon-elem--perm_phone_msg"></a></li>
+            </ul>
+        </section>
+
+        <section class="horizon container">
+			<h2 class="horizon__sector__title">Vida escolar</h2>
+
+			<div class="horizon__sector">
+				<h2 class="horizon__title horizon__title--link">
+                    <a href="#" title="title">Noticias</a>
+                </h2>
+				<div class="gridle-row">
+					<div class="gridle-gr-7 gridle-gr-12@medium">
+						<article class="common-box common-box--article common-box--vertical">
+                            <figure class="common-box__figure">
+                                <a href="#" title="title">
+                                    <img src="https://unsplash.it/500/300" class="elastic-img" alt="title" />
+                                </a>
+                            </figure>
+                            <div class="common-box__body">
+                                <p class="common-box__meta"><a href="#" title="title">Categoría</a></p>
+                                <h6 class="common-box__title">
+                                    <a href="#" title="title">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus molestiae.
+                                    </a>
+                                </h6>
+                                <p class="common-box__date">01 de Septiembre 2017</p>
+                            </div>
+                        </article>
+					</div>
+					<div class="gridle-gr-5 gridle-gr-12@medium">
+						<article class="common-box common-box--article common-box--horizontal">
+                            <figure class="common-box__figure">
+                                <a href="#" title="title">
+                                    <img src="https://unsplash.it/500/300" class="elastic-img" alt="title" />
+                                </a>
+                            </figure>
+                            <div class="common-box__body">
+                                <p class="common-box__meta"><a href="#" title="title">Categoría</a></p>
+                                <h6 class="common-box__title">
+                                    <a href="#" title="title">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus molestiae.
+                                    </a>
+                                </h6>
+                                <p class="common-box__date">01 de Septiembre 2017</p>
+                            </div>
+						</article>
+						<article class="common-box common-box--article common-box--horizontal">
+                            <figure class="common-box__figure">
+                                <a href="#" title="title">
+                                    <img src="https://unsplash.it/500/300" class="elastic-img" alt="title" />
+                                </a>
+                            </figure>
+                            <div class="common-box__body">
+                                <p class="common-box__meta"><a href="#" title="title">Categoría</a></p>
+                                <h6 class="common-box__title">
+                                    <a href="#" title="title">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus molestiae.
+                                    </a>
+                                </h6>
+                                <p class="common-box__date">01 de Septiembre 2017</p>
+                            </div>
+						</article>
+						<article class="common-box common-box--article common-box--horizontal">
+                            <figure class="common-box__figure">
+                                <a href="#" title="title">
+                                    <img src="https://unsplash.it/500/300" class="elastic-img" alt="title" />
+                                </a>
+                            </figure>
+                            <div class="common-box__body">
+                                <p class="common-box__meta"><a href="#" title="title">Categoría</a></p>
+                                <h6 class="common-box__title">
+                                    <a href="#" title="title">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus molestiae.
+                                    </a>
+                                </h6>
+                                <p class="common-box__date">01 de Septiembre 2017</p>
+                            </div>
+                        </article>
+					</div>
+				</div>
+            </div>
+        </section>
+        
+        <section class="horizon container">
+            <h2 class="horizon__title horizon__title--link">
+                <a href="#" title="title">Galerías</a>
+            </h2>
+            <div class="gridle-row">
+                <div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@small">
+                    <article class="common-box common-box--gallery">
+                        <figure class="common-box__figure">
+                            <a href="#" title="title">
+                                <img src="http://unsplash.it/500/300?gravity=east" alt="title" class="cover-img"/>
+                            </a>
+                        </figure>
+                        <div class="common-box__body">
+                            <p class="common-box__meta"><a href="#" title="title">Categoría</a></p>
+                            <h6 class="common-box__title">
+                                <a href="#" title="title">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus molestiae.
+                                </a>
+                            </h6>
+                            <p class="common-box__date">01 de Septiembre 2017</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@small">
+                    <article class="common-box common-box--gallery">
+                        <figure class="common-box__figure">
+                            <a href="#" title="title">
+                                <img src="http://unsplash.it/500/300?gravity=east" alt="title" class="cover-img"/>
+                            </a>
+                        </figure>
+                        <div class="common-box__body">
+                            <p class="common-box__meta"><a href="#" title="title">Categoría</a></p>
+                            <h6 class="common-box__title">
+                                <a href="#" title="title">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus molestiae.
+                                </a>
+                            </h6>
+                            <p class="common-box__date">01 de Septiembre 2017</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@small">
+                    <article class="common-box common-box--gallery">
+                        <figure class="common-box__figure">
+                            <a href="#" title="title">
+                                <img src="http://unsplash.it/500/300?gravity=east" alt="title" class="cover-img"/>
+                            </a>
+                        </figure>
+                        <div class="common-box__body">
+                            <p class="common-box__meta"><a href="#" title="title">Categoría</a></p>
+                            <h6 class="common-box__title">
+                                <a href="#" title="title">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus molestiae.
+                                </a>
+                            </h6>
+                            <p class="common-box__date">01 de Septiembre 2017</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@small">
+                    <article class="common-box common-box--gallery">
+                        <figure class="common-box__figure">
+                            <a href="#" title="title">
+                                <img src="http://unsplash.it/500/300?gravity=east" alt="title" class="cover-img"/>
+                            </a>
+                        </figure>
+                        <div class="common-box__body">
+                            <p class="common-box__meta"><a href="#" title="title">Categoría</a></p>
+                            <h6 class="common-box__title">
+                                <a href="#" title="title">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus molestiae.
+                                </a>
+                            </h6>
+                            <p class="common-box__date">01 de Septiembre 2017</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="horizon container">
+            <div class="gridle-row">
+                <div class="gridle-gr-6 gridle-gr-12@tablet">
+                    <h2 class="horizon__title horizon__title--link">
+                        <a href="#" title="title">Próximas actividades</a>
+                    </h2>
+                    <div class="gridle-row">
+                        <div class="gridle-gr-12">
+                            <article class="common-box common-box--calendar">
+                                <div class="common-box__mindate">
+                                    <a href="#" title="title">
+                                        <span class="common-box__day">06</span>
+                                        <span class="common-box__month">Sept</span>
+                                    </a>
+                                </div>
+                                <div class="common-box__body">
+                                    <h6 class="common-box__title">
+                                        <a href="#" title="title">Lorem ipsum dolor sit amet</a>
+                                    </h6>
+                                    <p class="common-box__time">18:30 hrs.</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="gridle-gr-12">
+                            <article class="common-box common-box--calendar">
+                                <div class="common-box__mindate">
+                                    <a href="#" title="title">
+                                        <span class="common-box__day">06</span>
+                                        <span class="common-box__month">Sept</span>
+                                    </a>
+                                </div>
+                                <div class="common-box__body">
+                                    <h6 class="common-box__title">
+                                        <a href="#" title="title">Lorem ipsum dolor sit amet</a>
+                                    </h6>
+                                    <p class="common-box__time">18:30 hrs.</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="gridle-gr-12">
+                            <article class="common-box common-box--calendar">
+                                <div class="common-box__mindate">
+                                    <a href="#" title="title">
+                                        <span class="common-box__day">06</span>
+                                        <span class="common-box__month">Sept</span>
+                                    </a>
+                                </div>
+                                <div class="common-box__body">
+                                    <h6 class="common-box__title">
+                                        <a href="#" title="title">Lorem ipsum dolor sit amet</a>
+                                    </h6>
+                                    <p class="common-box__time">18:30 hrs.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridle-gr-6 gridle-gr-12@tablet">
+                    <h2 class="horizon__title">Galerías</h2>
+                    <div class="gridle-row">
+                        <div class="gridle-gr-12">
+                            <article class="common-box--file">
+								<h6 class="common-box--file__title"><a href="#" title="title" download>Lorem ipsum el título del archivo</a></h6>
+								<p class="common-box--file__meta">Medio La Tercera</p>
+							</article>
+                        </div>
+                        <div class="gridle-gr-12">
+                            <article class="common-box--file">
+								<h6 class="common-box--file__title"><a href="#" title="title" download>Lorem ipsum el título del archivo</a></h6>
+								<p class="common-box--file__meta">Medio La Tercera</p>
+							</article>
+                        </div>
+                        <div class="gridle-gr-12">
+                            <article class="common-box--file">
+								<h6 class="common-box--file__title"><a href="#" title="title" download>Lorem ipsum el título del archivo</a></h6>
+								<p class="common-box--file__meta">Medio La Tercera</p>
+							</article>
+                        </div>
+                        <div class="gridle-gr-12">
+                            <article class="common-box--file">
+								<h6 class="common-box--file__title"><a href="#" title="title" download>Lorem ipsum el título del archivo</a></h6>
+								<p class="common-box--file__meta">Medio La Tercera</p>
+							</article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-bar" >
+		<div class="container gridle-no-gutter">
+			<div class="gridle-row">
+				<div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+                    <h4 class="footer-bar__title"><a href="#">Title 1</a></h4>
+                    <a href="#" title="title" class="footer-bar__link">Item 1</a>
+                    <a href="#" title="title" class="footer-bar__link">Item 1</a>
+                    <a href="#" title="title" class="footer-bar__link">Item 1</a>
+				</div>
+				<div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+                    <h4 class="footer-bar__title"><a href="#">Title 2</a></h4>
+                    <a href="#" title="title" class="footer-bar__link">Item 2</a> 
+                    <a href="#" title="title" class="footer-bar__link">Item 2</a> 
+                    <a href="#" title="title" class="footer-bar__link">Item 2</a> 
+                </div>
+                <div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+                    <h4 class="footer-bar__title"><a href="#">Title 3</a></h4>
+                    <a href="#" title="title" class="footer-bar__link">Item 3</a>
+                    <a href="#" title="title" class="footer-bar__link">Item 3</a>
+                    <a href="#" title="title" class="footer-bar__link">Item 3</a>
+                </div>
+                <div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+                    <a class="app-brand" href="index.html" title="Home">
+                        <img src="images/logos/manquecura-blanco.png" class="app-brand__logo" alt="Logo"/>
+                    </a>
+                    <ul class="footer-bar__data">
+                        <li class="footer-bar__data-item footer-bar__data-item--mail">
+                            <a href="#" title="title" target="_blank">mail@mail.com</a>
+                        </li>
+                        <li class="footer-bar__data-item footer-bar__data-item--phone">
+                            <a href="#" title="title" target="_blank">+56 2 2478 9012</a>
+                        </li>
+                        <li class="footer-bar__data-item footer-bar__data-item--place">
+                            <a href="#" title="title" target="_blank">Av. Providencia 218, Santiago, Chile</a>
+                        </li>
+                    </ul>
+                    <p class="footer-bar__social">
+                        <a href="#" title="title" target="_blank" class="social-link social-link--linkedin"></a>
+                        <a href="#" title="title" target="_blank" class="social-link social-link--twitter"></a>
+                        <a href="#" title="title" target="_blank" class="social-link social-link--facebook"></a>
+                    </p>
+                </div>
+			</div>
+		</div>
+	</footer>
+	<script src="scripts/min/main.min.js"></script>
+</body>
+</html>

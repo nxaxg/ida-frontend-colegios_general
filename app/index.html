@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Colegio General</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-bar">
+        <div class="top-bar">
+			<div class="container" data-area-name="menu-top">
+				<ul class="top-bar__items top-bar__items--right" data-mq-change="midlarge" data-match-area="menu-top@midlarge" data-unmatch-area="menu-top">
+                    <li class="menu-item">
+                        <a href="page-contacto.html">Contacto</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="404.html">404 not found</a>
+                    </li>
+                    <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                        <a href="#">Search</a>
+                        <ul class="submenu">
+                            <li class="menu-item"><a href="search.html" title="title">Search success</a></li>
+                            <li class="menu-item"><a href="search-not-found.html" title="title">Search error</a></li>
+                        </ul>
+                        <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                    </li>
+				</ul>
+			</div>
+		</div>
+        <nav class="nav-bar" data-module="nav-bar">
+            <div class="container">
+                <div class="nav-bar__holder">
+                    <div class="nav-bar__brand">
+                        <a class="app-brand app-brand--inline" title="title" href="index.html">
+                            <img src="images/logos/general-pumahue-color.svg" class="app-brand__logo hideme--at-midlarge" alt="Title"/>
+                            <img src="images/logos/general-pumahue-blanco.svg" class="app-brand__logo hideme showme--at-midlarge" alt="Title"/>
+                        </a>
+                    </div>
+                    <div class="nav-bar__body" data-role="nav-body">
+                        <button class="nav-bar__deploy-button" aria-label="Ver menú" data-role="nav-deployer">
+							<span></span>
+                        </button>
+                        <div class="search-form">
+                            <button id="search-mobile" class="search-box__deployer search-box__deployer--mobile" data-action="search-deployer">
+                            </button>
+                        </div>
+                        <div class="nav-bar__menu-holder">
+                            <ul class="nav-bar__menu nav-bar__menu--primary">
+                                <li class="menu-item hideme showme--at-tablet">
+                                    <a href="index.html" title="title">Inicio</a>
+                                </li>
+                                <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                                    <a href="page-admision.html">Page admisión</a>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="page-admision-aranceles.html" title="title">Page admision aranceles</a></li>
+                                        <li class="menu-item"><a href="page-admision-procedimientos.html" title="title">Page admisión procedimientos</a></li>
+                                    </ul>
+                                    <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page-portadilla.html">Page portadilla</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page-subportadilla.html" title="title">Page subportadilla</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page-quienes-somos.html" title="title">Page quienes somos</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="singular.html" title="title">Singular</a>
+                                </li>
+                                <li class="menu-item menu-item--search hideme--at-tablet">
+                                    <button class="search-box__deployer" data-action="search-deployer"></button>
+                                </li>
+                            </ul>
+                            <ul class="nav-bar__menu nav-bar__menu--primary hideme showme--at-tablet">
+                                <li class="menu-item">
+                                    <a href="404.html">404 not found</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page-contacto.html">Contacto</a>
+                                </li>
+                                <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                                    <a href="#">Search</a>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="search.html" title="title">Search success</a></li>
+                                        <li class="menu-item"><a href="search-not-found.html" title="title">Search error</a></li>
+                                    </ul>
+                                    <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<div class="container">
+					<div class="search-box" data-module="search-deploy">
+						<form class="search-box__form" action="" method="">
+							<input type="text" class="search-box__input" placeholder="Buscar">
+							<button type="submit" class="search-box__btn"></button>
+						</form>
+					</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="horizon horizon--main">
+            <div class="slider slider--overlay" data-module="slider">
+                <div class="slider__items" data-role="slider-list">
+                    <div class="slider__slide" data-role="slider-slide">
+                        <article class="common-box common-box--slide">
+                            <figure class="common-box__figure">
+                                <img src="http://unsplash.it/1200/400?gravity=center" class="cover-img" alt="title" />
+                            </figure>
+                            <div class="common-box__container">
+                                <div class="container">
+                                    <div class="common-box__body">
+                                        <h1 class="common-box__title common-box__title--big">Título de Destacado</h1>
+                                        <div class="common-box__excerpt">
+                                            <p>Caracteres máximo recomendado: 200. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                                        </div>
+                                        <div class="common-box__button">
+                                            <a href="#" class="button button--wide button--secondary">Inscríbete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="slider__slide" data-role="slider-slide">
+                        <article class="common-box common-box--slide">
+                            <figure class="common-box__figure">
+                                <img src="http://unsplash.it/1200/400?gravity=north" class="cover-img" alt="title" />
+                            </figure>
+                            <div class="common-box__container">
+                                <div class="container">
+                                    <div class="common-box__body">
+                                        <h1 class="common-box__title common-box__title--big">Título de Destacado</h1>
+                                        <div class="common-box__excerpt">
+                                            <p>Caracteres máximo recomendado: 200. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                                        </div>
+                                        <div class="common-box__button">
+                                            <a href="#" class="button button--wide button--secondary">Inscríbete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="slider__arrows">
+                    <button class="slider__arrow slider__arrow--prev" data-role="slider-arrow" data-direction="prev"></button>
+                    <button class="slider__arrow slider__arrow--next" data-role="slider-arrow" data-direction="next"></button>
+                </div>
+                <div class="slider__bullets font-righted">
+                    <button class="slider__bullet slider__bullet--current" data-role="slider-bullet" data-target="0"></button>
+                    <button class="slider__bullet" data-role="slider-bullet" data-target="1"></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="horizon">
+            <div class="container">
+                <article class="common-box common-box--destacado">
+                    <figure class="common-box__figure common-box__iframe">
+                        <iframe src="https://player.vimeo.com/video/48480871" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </figure>
+                    <div class="common-box__body">
+                        <h2 class="common-box__title common-box__title--semi">
+                            Lorem ipsum dolor sit amet
+                        </h2>
+                        <div class="common-box__excerpt">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti esse dolore impedit, facere eaque id qui illum voluptate officia ipsam quos obcaecati, culpa numquam consectetur ipsa. Vero sunt maiores sapiente.</p>
+                        </div>
+                        <div class="common-box__extra">
+                            <a href="#" class="button button--wide button--secundario" title="title">Call to action</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="horizon">
+            <div class="container">
+                <h2 class="horizon__title">
+                    Lorem ipsum dolor sit amet
+                </h2>
+                <div class="carousel" data-module="carousel" data-maxitems="4" data-mqitems="1024px,4|800px,2|640px,1">
+                    <div class="carousel__items-holder">
+                        <div class="carousel__items" data-role="carousel-list">
+                            <div class="carousel__slide" data-role="carousel-slide">
+                                <article class="thumb-box">
+                                    <figure class="thumb-box__figure">
+                                        <a href="#" title="title">
+                                            <img src="http://unsplash.it/400/300" class="cover-img" alt="title" />
+                                        </a>
+                                    </figure>
+                                    <div class="thumb-box__body">
+                                        <h6 class="thumb-box__title">
+                                            <a href="#" title="title">Colegio 1</a>
+                                        </h6>
+                                        <p class="thumb-box__place">
+                                            <a href="#" target="_blank" title="title">Avenida siempre viva 123</a>
+                                        </p>
+                                        <p class="thumb-box__phone">
+                                            <a href="#" target="_blank" title="title">+ 562 1234 6789</a>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="carousel__slide" data-role="carousel-slide">
+                                <article class="thumb-box">
+                                    <figure class="thumb-box__figure">
+                                        <a href="#" title="title">
+                                            <img src="http://unsplash.it/400/300" class="cover-img" alt="title" />
+                                        </a>
+                                    </figure>
+                                    <div class="thumb-box__body">
+                                        <h6 class="thumb-box__title">
+                                            <a href="#" title="title">Colegio 2</a>
+                                        </h6>
+                                        <p class="thumb-box__place">
+                                            <a href="#" target="_blank" title="title">Avenida siempre viva 123</a>
+                                        </p>
+                                        <p class="thumb-box__phone">
+                                            <a href="#" target="_blank" title="title">+ 562 1234 6789</a>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="carousel__slide" data-role="carousel-slide">
+                                <article class="thumb-box">
+                                    <figure class="thumb-box__figure">
+                                        <a href="#" title="title">
+                                            <img src="http://unsplash.it/400/300" class="cover-img" alt="title" />
+                                        </a>
+                                    </figure>
+                                    <div class="thumb-box__body">
+                                        <h6 class="thumb-box__title">
+                                            <a href="#" title="title">Colegio 3</a>
+                                        </h6>
+                                        <p class="thumb-box__place">
+                                            <a href="#" target="_blank" title="title">Avenida siempre viva 123</a>
+                                        </p>
+                                        <p class="thumb-box__phone">
+                                            <a href="#" target="_blank" title="title">+ 562 1234 6789</a>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="carousel__slide" data-role="carousel-slide">
+                                <article class="thumb-box">
+                                    <figure class="thumb-box__figure">
+                                        <a href="#" title="title">
+                                            <img src="http://unsplash.it/400/300" class="cover-img" alt="title" />
+                                        </a>
+                                    </figure>
+                                    <div class="thumb-box__body">
+                                        <h6 class="thumb-box__title">
+                                            <a href="#" title="title">Colegio 4</a>
+                                        </h6>
+                                        <p class="thumb-box__place">
+                                            <a href="#" target="_blank" title="title">Avenida siempre viva 123</a>
+                                        </p>
+                                        <p class="thumb-box__phone">
+                                            <a href="#" target="_blank" title="title">+ 562 1234 6789</a>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="carousel__slide" data-role="carousel-slide">
+                                <article class="thumb-box">
+                                    <figure class="thumb-box__figure">
+                                        <a href="#" title="title">
+                                            <img src="http://unsplash.it/400/300" class="cover-img" alt="title" />
+                                        </a>
+                                    </figure>
+                                    <div class="thumb-box__body">
+                                        <h6 class="thumb-box__title">
+                                            <a href="#" title="title">Colegio 5</a>
+                                        </h6>
+                                        <p class="thumb-box__place">
+                                            <a href="#" target="_blank" title="title">Avenida siempre viva 123</a>
+                                        </p>
+                                        <p class="thumb-box__phone">
+                                            <a href="#" target="_blank" title="title">+ 562 1234 6789</a>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="carousel__slide" data-role="carousel-slide">
+                                <article class="thumb-box">
+                                    <figure class="thumb-box__figure">
+                                        <a href="#" title="title">
+                                            <img src="http://unsplash.it/400/300" class="cover-img" alt="title" />
+                                        </a>
+                                    </figure>
+                                    <div class="thumb-box__body">
+                                        <h6 class="thumb-box__title">
+                                            <a href="#" title="title">Colegio 6</a>
+                                        </h6>
+                                        <p class="thumb-box__place">
+                                            <a href="#" target="_blank" title="title">Avenida siempre viva 123</a>
+                                        </p>
+                                        <p class="thumb-box__phone">
+                                            <a href="#" target="_blank" title="title">+ 562 1234 6789</a>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel__arrows">
+                        <button class="carousel__arrow carousel__arrow--prev" data-role="carousel-arrow" data-direction="prev"></button>
+                        <button class="carousel__arrow carousel__arrow--next" data-role="carousel-arrow" data-direction="next"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="horizon">
+            <div class="container">
+                <h2 class="horizon__title">
+                    Lorem ipsum dolor sit amet
+                </h2>
+                <div class="gridle-row">
+                    <article class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@small common-box common-box--card">
+                        <figure class="common-box__figure">
+                            <a href="#" title="title">
+                                <img src="images/iconos/icon-programas-diferenciadores.svg" class="icon-img" alt="title"/>
+                            </a>
+                        </figure>
+                        <div class="common-box__body">
+                            <h6 class="common-box__title common-box__title--medium">
+                                <a href="#" title="title">Lorem ipsum dolor sit amet</a>
+                            </h6>
+                            <div class="common-box__excerpt">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, minima eos. Aliquid et nemo, ratione nulla nihil quos labore eveniet nam delectus a hic amet quibusdam cumque, praesentium quasi laboriosam.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@small common-box common-box--card">
+                        <figure class="common-box__figure">
+                            <a href="#" title="title">
+                                <img src="images/iconos/icon-programa-bilingue.svg" class="icon-img" alt="title"/>
+                            </a>
+                        </figure>
+                        <div class="common-box__body">
+                            <h6 class="common-box__title common-box__title--medium">
+                                <a href="#" title="title">Lorem ipsum dolor sit amet</a>
+                            </h6>
+                            <div class="common-box__excerpt">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, minima eos. Aliquid et nemo, ratione nulla nihil quos labore eveniet nam delectus a hic amet quibusdam cumque, praesentium quasi laboriosam.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@small common-box common-box--card">
+                        <figure class="common-box__figure">
+                            <a href="#" title="title">
+                                <img src="images/iconos/icon-excelencia.svg" class="icon-img" alt="title"/>
+                            </a>
+                        </figure>
+                        <div class="common-box__body">
+                            <h6 class="common-box__title common-box__title--medium">
+                                <a href="#" title="title">Lorem ipsum dolor sit amet</a>
+                            </h6>
+                            <div class="common-box__excerpt">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, minima eos. Aliquid et nemo, ratione nulla nihil quos labore eveniet nam delectus a hic amet quibusdam cumque, praesentium quasi laboriosam.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@small common-box common-box--card">
+                        <figure class="common-box__figure">
+                            <a href="#" title="title">
+                                <img src="images/iconos/icon-estrategias-psu.svg" class="icon-img" alt="title"/>
+                            </a>
+                        </figure>
+                        <div class="common-box__body">
+                            <h6 class="common-box__title common-box__title--medium">
+                                <a href="#" title="title">Lorem ipsum dolor sit amet</a>
+                            </h6>
+                            <div class="common-box__excerpt">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, minima eos. Aliquid et nemo, ratione nulla nihil quos labore eveniet nam delectus a hic amet quibusdam cumque, praesentium quasi laboriosam.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="horizon">
+            <div class="container">
+                <h2 class="horizon__title">
+                    Lorem ipsum dolor sit amet
+                </h2>
+                <div class="gridle-row">
+                    <div class="gridle-gr-3 gridle-gr-6@medium gridle-gr-12@small">
+                        <article class="common-box common-box--article">
+                            <figure class="common-box__figure">
+                                <a href="#" title="title">
+                                    <img src="https://unsplash.it/550/300" class="elastic-img" alt="title" />
+                                </a>
+                            </figure>
+                            <div class="common-box__body">
+                                <p class="common-box__meta">
+                                    <a href="#" title="title">Categoría | Colegio</a>
+                                </p>
+                                <h6 class="common-box__title">
+                                    <a href="#" title="title">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus molestiae.
+                                    </a>
+                                </h6>
+                                <p class="common-box__date">01 de Septiembre 2017</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="gridle-gr-3 gridle-gr-6@medium gridle-gr-12@small">
+                        <article class="common-box common-box--article">
+                            <figure class="common-box__figure">
+                                <a href="#" title="title">
+                                    <img src="https://unsplash.it/500/300" class="elastic-img" alt="title" />
+                                </a>
+                            </figure>
+                            <div class="common-box__body">
+                                <p class="common-box__meta">
+                                    <a href="#" title="title">Categoría | Colegio</a>
+                                </p>
+                                <h6 class="common-box__title">
+                                    <a href="#" title="title">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus molestiae.
+                                    </a>
+                                </h6>
+                                <p class="common-box__date">01 de Septiembre 2017</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="gridle-gr-3 gridle-gr-6@medium gridle-gr-12@small">
+                        <article class="common-box common-box--article">
+                            <figure class="common-box__figure">
+                                <a href="#" title="title">
+                                    <img src="https://unsplash.it/500/320" class="elastic-img" alt="title" />
+                                </a>
+                            </figure>
+                            <div class="common-box__body">
+                                <p class="common-box__meta">
+                                    <a href="#" title="title">Categoría | Colegio</a>
+                                </p>
+                                <h6 class="common-box__title">
+                                    <a href="#" title="title">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus molestiae.
+                                    </a>
+                                </h6>
+                                <p class="common-box__date">01 de Septiembre 2017</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="gridle-gr-3 gridle-gr-6@medium gridle-gr-12@small">
+                        <article class="common-box common-box--article">
+                            <figure class="common-box__figure">
+                                <a href="#" title="title">
+                                    <img src="https://unsplash.it/500/300" class="elastic-img" alt="title" />
+                                </a>
+                            </figure>
+                            <div class="common-box__body">
+                                <p class="common-box__meta">
+                                    <a href="#" title="title">Categoría | Colegio</a>
+                                </p>
+                                <h6 class="common-box__title">
+                                    <a href="#" title="title">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus molestiae.
+                                    </a>
+                                </h6>
+                                <p class="common-box__date">01 de Septiembre 2017</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <!-- <div class="gridle-row font-centered">
+                    <button class="button button--more">
+                        Ver más
+                    </button>
+                </div> -->
+            </div>
+        </section>
+
+        <section class="horizon">
+            <div class="container">
+                <h2 class="horizon__title">Lorem ipsum dolor sit amet</h2>
+                <div class="gridle-row">
+                    <article class="gridle-gr-4 gridle-gr-12@tablet common-box common-box--item common-box--item_school">
+                        <h4 class="common-box__title">
+                            <a href="#" title="title">Lorem ipsum</a>
+                        </h4>
+                        <div class="common-box__excerpt">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores repellendus odio pariatur illum quasi deserunt animi! Molestiae, ipsa dolore.</p>
+                        </div>
+                    </article>
+                    <article class="gridle-gr-4 gridle-gr-12@tablet common-box common-box--item common-box--item_list">
+                        <h4 class="common-box__title">
+                            <a href="#" title="title">Lorem ipsum</a>
+                        </h4>
+                        <div class="common-box__content">
+                            <select class="form-control__field form-control__field--select form-control__field--radius" name="select-colegios" id="select-colegio">
+                                <option value="" selected disabled>Seleccione un colegio</option>
+                                <option value="colegio-1">Colegio 1</option>
+                                <option value="colegio-2">Colegio 2</option>
+                                <option value="colegio-3">Colegio 3</option>
+                            </select>
+                        </div>
+                    </article>
+                    <article class="gridle-gr-4 gridle-gr-12@tablet common-box common-box--item common-box--item_public">
+                        <h4 class="common-box__title">
+                            <a href="#" title="title">Lorem ipsum</a>
+                        </h4>
+                        <div class="common-box__excerpt">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores repellendus odio pariatur illum quasi deserunt animi! Molestiae, ipsa dolore.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer-bar" >
+		<div class="container gridle-no-gutter">
+			<div class="gridle-row">
+				<div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+                    <h4 class="footer-bar__title"><a href="#">Title 1</a></h4>
+                    <a href="#" title="title" class="footer-bar__link">Item 1</a>
+                    <a href="#" title="title" class="footer-bar__link">Item 1</a>
+                    <a href="#" title="title" class="footer-bar__link">Item 1</a>
+				</div>
+				<div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+                    <h4 class="footer-bar__title"><a href="#">Title 2</a></h4>
+                    <a href="#" title="title" class="footer-bar__link">Item 2</a>
+                    <a href="#" title="title" class="footer-bar__link">Item 2</a>
+                    <a href="#" title="title" class="footer-bar__link">Item 2</a>
+                </div>
+                <div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+                    <h4 class="footer-bar__title"><a href="#">Title 3</a></h4>
+                    <a href="#" title="title" class="footer-bar__link">Item 3</a>
+                    <a href="#" title="title" class="footer-bar__link">Item 3</a>
+                    <a href="#" title="title" class="footer-bar__link">Item 3</a>
+                </div>
+                <div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+                    <a class="app-brand" href="index.html" title="Home">
+                        <img src="images/logos/general-pumahue-blanco.svg" class="app-brand__logo" alt="Logo"/>
+                    </a>
+                    <ul class="footer-bar__data">
+                        <li class="footer-bar__data-item footer-bar__data-item--mail">
+                            <a href="#" title="title" target="_blank">mail@mail.com</a>
+                        </li>
+                        <li class="footer-bar__data-item footer-bar__data-item--phone">
+                            <a href="#" title="title" target="_blank">+56 2 2478 9012</a>
+                        </li>
+                        <li class="footer-bar__data-item footer-bar__data-item--place">
+                            <a href="#" title="title" target="_blank">Av. Providencia 218, Santiago, Chile</a>
+                        </li>
+                    </ul>
+                    <p class="footer-bar__social">
+                        <a href="#" title="title" target="_blank" class="social-link social-link--linkedin"></a>
+                        <a href="#" title="title" target="_blank" class="social-link social-link--twitter"></a>
+                        <a href="#" title="title" target="_blank" class="social-link social-link--facebook"></a>
+                    </p>
+                </div>
+			</div>
+		</div>
+	</footer>
+	<script src="scripts/min/main.min.js"></script>
+</body>
+</html>

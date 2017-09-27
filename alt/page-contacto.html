@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Colegio general</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">    
+</head>
+
+<body>
+    <header class="header-bar">
+        <div class="top-bar">
+			<div class="container" data-area-name="menu-top">
+				<ul class="top-bar__items top-bar__items--right" data-mq-change="midlarge" data-match-area="menu-top@midlarge" data-unmatch-area="menu-top">
+                    <li class="menu-item">
+                        <a href="page-contacto.html">Contacto</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="404.html">404 not found</a>
+                    </li>
+                    <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                        <a href="#">Search</a>
+                        <ul class="submenu">
+                            <li class="menu-item"><a href="search.html" title="title">Search success</a></li>
+                            <li class="menu-item"><a href="search-not-found.html" title="title">Search error</a></li>
+                        </ul>
+                        <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                    </li>
+				</ul>
+			</div>
+		</div>
+        <nav class="nav-bar" data-module="nav-bar">
+            <div class="container">
+                <div class="nav-bar__holder">
+                    <div class="nav-bar__brand">
+                        <a class="app-brand app-brand--inline" title="title" href="index.html">
+                            <img src="images/logos/general-pumahue-color.svg" class="app-brand__logo hideme--at-midlarge" alt="Title"/>
+                            <img src="images/logos/general-pumahue-blanco.svg" class="app-brand__logo hideme showme--at-midlarge" alt="Title"/>
+                        </a>
+                    </div>
+                    <div class="nav-bar__body" data-role="nav-body">
+                        <button class="nav-bar__deploy-button" aria-label="Ver menú" data-role="nav-deployer">
+							<span></span>
+                        </button>
+                        <div class="search-form">
+                            <button id="search-mobile" class="search-box__deployer search-box__deployer--mobile" data-action="search-deployer">
+                            </button>
+                        </div>
+                        <div class="nav-bar__menu-holder">
+                            <ul class="nav-bar__menu nav-bar__menu--primary">
+                                <li class="menu-item hideme showme--at-tablet">
+                                    <a href="index.html" title="title">Inicio</a>
+                                </li>
+                                <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                                    <a href="page-admision.html">Page admisión</a>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="page-admision-aranceles.html" title="title">Page admision aranceles</a></li>
+                                        <li class="menu-item"><a href="page-admision-procedimientos.html" title="title">Page admisión procedimientos</a></li>
+                                    </ul>
+                                    <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page-portadilla.html">Page portadilla</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page-subportadilla.html" title="title">Page subportadilla</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page-quienes-somos.html" title="title">Page quienes somos</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="singular.html" title="title">Singular</a>
+                                </li>
+                                <li class="menu-item menu-item--search hideme--at-tablet">
+                                    <button class="search-box__deployer" data-action="search-deployer"></button>
+                                </li>
+                            </ul>
+                            <ul class="nav-bar__menu nav-bar__menu--primary hideme showme--at-tablet">
+                                <li class="menu-item">
+                                    <a href="404.html">404 not found</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="page-contacto.html">Contacto</a>
+                                </li>
+                                <li class="menu-item menu-item--has-submenu" data-role="touch-submenu">
+                                    <a href="#">Search</a>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="search.html" title="title">Search success</a></li>
+                                        <li class="menu-item"><a href="search-not-found.html" title="title">Search error</a></li>
+                                    </ul>
+                                    <span class="click-handler" data-role="touch-submenu-deployer"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<div class="container">
+					<div class="search-box" data-module="search-deploy">
+						<form class="search-box__form" action="" method="">
+							<input type="text" class="search-box__input" placeholder="Buscar">
+							<button type="submit" class="search-box__btn"></button>
+						</form>
+					</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container hideme--at-tablet">
+            <ul class="breadcrumbs">
+                <li class="breadcrumbs__item">
+                    <a href="#" title="title">Inicio</a>
+                </li>
+                <li class="breadcrumbs__item breadcrumbs__item--current">
+                    <a href="#" title="title">Contacto</a>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="gridle-gr-12">
+            <div class="sidebar-mobile">
+                <button data-action="sidebar-deployer" class="sidebar-deployer">Otras secciones</button>
+                <ul data-module="sidebar-body" class="sidebar-mobile__body">
+                    <li class="sidebar-mobile__item">
+                        <a href="#">Item sidebar</a>
+                    </li>
+                    <li class="sidebar-mobile__item">
+                        <a href="#">Item sidebar</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+		  
+		<section class="horizon container">
+			<div class="gridle-row">
+				<aside class="gridle-gr-3 hideme--at-tablet sidebar-siblings">
+					<h3 class="siblings__title">
+						  <a href="#">¿Necesitas ayuda?</a>
+					</h3>
+					<ul class="siblings__list">
+						<li class="siblings__item">
+							<a href="#">Procedimientos</a>
+						</li>
+						<li class="siblings__item siblings__item--current">
+							<a href="#">Requisitos</a>
+						</li>
+					</ul>
+				</aside>
+				<div class="gridle-gr-9 gridle-gr-12@tablet">
+					<h2 class="common-box__title common-box__title--double">Contacto admisión</h2>
+					<form action="" method="" id="admision-contacto" class="gridle-row" data-module="common-form" data-validzr-handled="true" novalidate>
+						<div class="gridle-gr-6 gridle-gr-12@tablet">
+							<div class="form-control" data-error-message="Este campo es obligatorio">
+								<label for="contacto-nombre" class="form-control__label">Nombre completo *</label>
+								<input type="text" class="form-control__field" name="contacto-nombre" placeholder="Ingrese su nombre completo" data-custom-validation="onlyString" required>
+								<p class="form-control__text">Carácteres alfabéticos</p>
+							</div>
+						</div>
+						<div class="gridle-gr-6 gridle-gr-12@tablet">
+							<div class="form-control" data-error-message="Ingrese un e-mail válido">
+								<label for="contacto-email" class="form-control__label">E-mail *</label>
+								<input type="email" class="form-control__field" name="contacto-email" placeholder="Ingrese su e-mail" required>
+								<p class="form-control__text">Ingrese un e-mail válido</p>
+							</div>
+						</div>
+						<div class="gridle-gr-12">
+							<div class="form-control" data-error-message="Este campo es obligatorio">
+								<label for="contacto-asunto" class="form-control__label">Motivo de la consulta *</label>
+								<input type="text" class="form-control__field" name="contacto-asunto" placeholder="Indique el motivo de la consulta" required>
+								<p class="form-control__text">Carácteres alfabéticos</p>
+							</div>
+						</div>
+						<div class="gridle-gr-12">
+							<div class="form-control" data-error-message="Este campo es obligatorio">
+								<label for="contacto-mensaje" class="form-control__label">Mensaje *</label>
+								<textarea name="contacto-mensaje" class="form-control__field" rows="5" placeholder="Ingrese el mensaje de la consulta" data-module="max-counter" maxlength="2000"></textarea>
+								<p class="form-control__text">Máximo <strong id="max-dead">2000</strong> caracteres</p>
+							</div>
+                        </div>
+                        <div class="gridle-gr-12">
+                            <button type="submit" class="button button--more">Enviar</button>
+                        </div>
+                    </form>
+                    <p class="form-control__text">*Campos obligatorios</p>
+
+                    <div class="message message--ghost-success" data-module="message">
+                        <div class="message__body">
+                            <p>Su mensaje se ha enviado exitosamente. Pronto lo contactaremos</p>
+                        </div>
+                        <button class="message__close-button" data-role="close"></button>
+                    </div>
+                    <div class="message message--ghost-danger" data-module="message">
+                        <div class="message__body">
+                            <p>No has llenado todos los campos del formulario</p>
+                        </div>
+                        <button class="message__close-button" data-role="close"></button>
+                    </div>
+				</div>
+			</div>
+		</section>
+    </main>
+    <footer class="footer-bar" >
+		<div class="container gridle-no-gutter">
+			<div class="gridle-row">
+				<div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+                    <h4 class="footer-bar__title"><a href="#">Title 1</a></h4>
+                    <a href="#" title="title" class="footer-bar__link">Item 1</a>
+                    <a href="#" title="title" class="footer-bar__link">Item 1</a>
+                    <a href="#" title="title" class="footer-bar__link">Item 1</a>
+				</div>
+				<div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+                    <h4 class="footer-bar__title"><a href="#">Title 2</a></h4>
+                    <a href="#" title="title" class="footer-bar__link">Item 2</a> 
+                    <a href="#" title="title" class="footer-bar__link">Item 2</a> 
+                    <a href="#" title="title" class="footer-bar__link">Item 2</a> 
+                </div>
+                <div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+                    <h4 class="footer-bar__title"><a href="#">Title 3</a></h4>
+                    <a href="#" title="title" class="footer-bar__link">Item 3</a>
+                    <a href="#" title="title" class="footer-bar__link">Item 3</a>
+                    <a href="#" title="title" class="footer-bar__link">Item 3</a>
+                </div>
+                <div class="gridle-gr-3 gridle-gr-6@tablet gridle-gr-12@tablet no-padding--vertical--but-tablet">
+                    <a class="app-brand" href="index.html" title="Home">
+                        <img src="images/logos/general-pumahue-blanco.svg" class="app-brand__logo" alt="Logo"/>
+                    </a>
+                    <ul class="footer-bar__data">
+                        <li class="footer-bar__data-item footer-bar__data-item--mail">
+                            <a href="#" title="title" target="_blank">mail@mail.com</a>
+                        </li>
+                        <li class="footer-bar__data-item footer-bar__data-item--phone">
+                            <a href="#" title="title" target="_blank">+56 2 2478 9012</a>
+                        </li>
+                        <li class="footer-bar__data-item footer-bar__data-item--place">
+                            <a href="#" title="title" target="_blank">Av. Providencia 218, Santiago, Chile</a>
+                        </li>
+                    </ul>
+                    <p class="footer-bar__social">
+                        <a href="#" title="title" target="_blank" class="social-link social-link--linkedin"></a>
+                        <a href="#" title="title" target="_blank" class="social-link social-link--twitter"></a>
+                        <a href="#" title="title" target="_blank" class="social-link social-link--facebook"></a>
+                    </p>
+                </div>
+			</div>
+		</div>
+	</footer>
+	<script src="scripts/min/main.min.js"></script>
+</body>
+</html>
